@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bliss - Booking</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<header>
+    <h1>Travel Bliss</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h2 style="text-align:center; margin-top: 20px;">Book Your Trip</h2>
+<form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="destination">Destination:</label>
+    <select id="destination" name="destination">
+        <option>Select Destination</option>
+        <option>Maldives</option>
+        <option>Switzerland</option>
+        <option>New York</option>
+        <option>Dubai</option>
+    </select>
+
+    <label>Travel Class:</label>
+    <input type="radio" name="class" value="Economy"> Economy
+    <input type="radio" name="class" value="Business"> Business
+    <input type="radio" name="class" value="First"> First Class
+
+    <label>Extras:</label>
+    <input type="checkbox" name="wifi"> WiFi
+    <input type="checkbox" name="meals"> Meals
+    <input type="checkbox" name="guide"> City Guide
+
+    <label for="date">Travel Date:</label>
+    <input type="date" id="date" name="date">
+
+    <button type="submit">Book Now</button>
+</form>
+
+<footer>
+    <p>&copy; 2025 Travel Bliss | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
